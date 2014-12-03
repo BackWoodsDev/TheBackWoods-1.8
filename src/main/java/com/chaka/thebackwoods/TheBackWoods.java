@@ -1,16 +1,17 @@
 package com.chaka.thebackwoods;
 
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import com.chaka.thebackwoods.init.InventoryRender;
 import com.chaka.thebackwoods.init.ModBlocks;
 import com.chaka.thebackwoods.init.ModItems;
 import com.chaka.thebackwoods.init.Recipes;
 import com.chaka.thebackwoods.util.LogHelper;
-import com.chaka.thebackwoods.util.Reference;
 import com.chaka.thebackwoods.util.MFRHandler;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import com.chaka.thebackwoods.util.Reference;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
 public class TheBackWoods {
